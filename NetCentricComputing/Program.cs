@@ -11,7 +11,12 @@ namespace NetCentricComputing
     {
         static void Main(string[] args)
         {
+            //Array
             multidimensionalArray3D.Run();
+            JaggedArray.Run();
+
+            //Indexers
+            IndexerDemo.Run();
         }
     }
 }
