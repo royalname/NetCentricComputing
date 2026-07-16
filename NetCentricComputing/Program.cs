@@ -1,11 +1,12 @@
 ﻿using NetCentricComputing.Array;
 using System;
+using System.Threading.Tasks;
 
 namespace NetCentricComputing
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             // Array
             multidimensionalArray3D.Run();
@@ -16,6 +17,9 @@ namespace NetCentricComputing
 
             // Delegates and Events
             DelegateEventDemo.Run();
+
+            // Async and Await
+            await async_await.Run();
         }
     }
 }

@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Array\jagged.cs" />
     <Compile Include="Array\Multidimensional3d.cs" />
+    <Compile Include="async_and_await\async_await.cs" />
     <Compile Include="Delegate_and_events\delegate_event.cs" />
     <Compile Include="indexers\indexers.cs" />
     <Compile Include="Program.cs" />
