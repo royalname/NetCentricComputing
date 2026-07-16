@@ -1,9 +1,5 @@
 ﻿using NetCentricComputing.Array;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NetCentricComputing
 {
@@ -11,12 +7,15 @@ namespace NetCentricComputing
     {
         static void Main(string[] args)
         {
-            //Array
+            // Array
             multidimensionalArray3D.Run();
             JaggedArray.Run();
 
-            //Indexers
+            // Indexers
             IndexerDemo.Run();
+
+            // Delegates and Events
+            DelegateEventDemo.Run();
         }
     }
 }
